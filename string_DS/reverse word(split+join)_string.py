@@ -15,14 +15,13 @@
 # print(new_string)
 
 # To reverse words in a given string  (for reverse word use = split + join , for reverse character use slice)
-string = 'my name is khan'
+string = input('Enter string for reverse :')
 # reversing words in a given string
-s = string.split()[::1]
+s = string.split()[-1::-1]
 l = []
 for i in s:
 # appending reversed words to l
     l.append(i)
 # printing reverse words
 print(" ".join(l))
-
 
